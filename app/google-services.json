@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "541816073311",
+    "project_id": "marvel-characters-b19fb",
+    "storage_bucket": "marvel-characters-b19fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541816073311:android:42c81fc46cff198d98ffea",
+        "android_client_info": {
+          "package_name": "app.anter.marvelcharacters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541816073311-a9d101jjh6s4mbs2iv1qji757i7oli24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLJBCwVsDLj-RQ-ykl9kDbqcpy9qvGy5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541816073311-a9d101jjh6s4mbs2iv1qji757i7oli24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
