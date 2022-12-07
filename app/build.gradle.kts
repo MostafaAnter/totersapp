@@ -22,7 +22,7 @@ android {
     compileSdk = AppConfig.compileSdk
 
     defaultConfig {
-        applicationId = "app.anter.marvelcharacters"
+        applicationId = "app.anter.totersapp"
         minSdk = AppConfig.minSdk
         targetSdk = AppConfig.targetSdk
         versionCode = AppConfig.versionCode
