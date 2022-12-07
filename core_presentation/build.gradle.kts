@@ -36,10 +36,6 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildTypes.forEach {
-        it.buildConfigField("String", "API_BASE_URL", "\"https://api.rawg.io/\"")
-        it.buildConfigField("String", "API_KEY", "\"fb90fb8e8e37424099ed6ece607d51a9\"")
-    }
     // enable data binding inside module
     dataBinding.apply {
         @Suppress("DEPRECATION")

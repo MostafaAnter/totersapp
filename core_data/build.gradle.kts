@@ -37,8 +37,9 @@ android {
         jvmTarget = "1.8"
     }
     buildTypes.forEach {
-        it.buildConfigField("String", "API_BASE_URL", "\"https://api.rawg.io/\"")
-        it.buildConfigField("String", "API_KEY", "\"fb90fb8e8e37424099ed6ece607d51a9\"")
+        it.buildConfigField("String", "API_BASE_URL", "\"https://gateway.marvel.com/\"")
+        it.buildConfigField("String", "PUBLIC_API_KEY", "\"a4ed1bd080b830c92a687cf3be2ed797\"")
+        it.buildConfigField("String", "PRIVATE_API_KEY", "\"f777157d15b93664728420bf06312cef2727777f\"")
     }
     // enable data binding inside module
     dataBinding.apply {
@@ -55,6 +56,8 @@ android {
 }
 
 dependencies {
+
+    implementation(project(":core"))
 
     implementation (AppDependencies.kotlin_stdlib)
     implementation (AppDependencies.core_ktx)
