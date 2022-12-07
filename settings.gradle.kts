@@ -10,13 +10,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
 rootProject.name = "totersapp"
-include ':app'
-include ':core'
-include ':core_data'
-include ':core_domain'
-include ':core_presentation'
-include ':feature_character_detail'
-include ':feature_characters_list'
+include (":app")
+include(":core")
+include(":core_data")
+include(":core_domain")
+include(":core_presentation")
+include(":feature_characters_list")
+include(":feature_character_detail")
