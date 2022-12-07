@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "totersapp"
 include ':app'
+include ':core'
+include ':core_data'
+include ':core_domain'
+include ':core_presentation'
