@@ -17,7 +17,7 @@ import java.io.IOException
  */
 @OptIn(ExperimentalPagingApi::class)
 class CharactersSearchRemoteMediator(
-    private val query: String,
+    private val query: String?,
     private val mainRepository: AppRepository,
     private val networkHelper: NetworkHelper,
     private val characterItemDao: CharacterItemDao

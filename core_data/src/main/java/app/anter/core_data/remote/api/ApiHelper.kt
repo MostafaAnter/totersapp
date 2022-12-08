@@ -8,6 +8,6 @@ import retrofit2.Response
  * Created by Mostafa Anter on 11/10/20.
  */
 interface ApiHelper {
-    suspend fun searchCharacters(nameStartsWith: String): Response<CharactersResponse>
+    suspend fun searchCharacters(nameStartsWith: String?): Response<CharactersResponse>
     suspend fun getCharacterDetail(characterId: String): Response<CharacterDetailResponse>
 }

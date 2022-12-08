@@ -13,7 +13,7 @@ class AppRepository @Inject constructor(
     private val apiHelper: ApiHelper
     ) {
 
-    suspend fun searchCharacters(query: String): Response<CharactersResponse> =
+    suspend fun searchCharacters(query: String?): Response<CharactersResponse> =
         apiHelper.searchCharacters(query)
 
     suspend fun getCharacterDetail(characterId: String): Response<CharacterDetailResponse> =

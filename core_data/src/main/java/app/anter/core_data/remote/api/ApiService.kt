@@ -15,7 +15,10 @@ interface ApiService {
     @GET("/v1/public/characters")
     suspend fun searchCharacters(
         @Query("apikey") key: String = BuildConfig.PUBLIC_API_KEY,
-        @Query("nameStartsWith") query: String = "",
+        @Query("hash") hash: String = BuildConfig.HASH,
+        @Query("ts") timestamp: Long = 1,
+        @Query("limit") limit: Int = 100,
+        @Query("nameStartsWith") query: String? = null,
         ): Response<CharactersResponse>
 
     @GET("/v1/public/characters/{characterId}")
