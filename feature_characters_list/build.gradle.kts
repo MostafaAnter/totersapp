@@ -48,6 +48,8 @@ android {
 dependencies {
     //depend on core module for string res
     implementation(project(":core"))
+    implementation(project(":core_data"))
+    implementation(project(":core_domain"))
     implementation(project(":core_presentation"))
 
     implementation (AppDependencies.kotlin_stdlib)
