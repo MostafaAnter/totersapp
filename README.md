@@ -13,7 +13,7 @@
  <img src="gif link" width="300">
  
 ### Project Dependency Graph ###
-![](https://raw.githubusercontent.com/MostafaAnter/totersapp/master/project.dot.png)
+<img src="https://raw.githubusercontent.com/MostafaAnter/totersapp/master/project.dot.png" width="500">
 Core module contains classes which can be used in every layer, such as injection annotations, injection scopes, error factories, data holder models. Core presentation, includes core module and classes which can be used in other features presentation modules such as base ui classes, generic RecyclerView Adapter, ViewModel factories etc. Core data includes core module and domain specific interfaces such as Interactors. Core Data also includes core module, data source interfaces, default request interceptors and api module.
 
 
