@@ -25,5 +25,7 @@ interface ApiService {
     suspend fun getCharacterDetail(
         @Path("characterId") characterId: String,
         @Query("apikey") key: String = BuildConfig.PUBLIC_API_KEY,
+        @Query("hash") hash: String = BuildConfig.HASH,
+        @Query("ts") timestamp: Long = 1,
     ): Response<CharacterDetailResponse>
 }

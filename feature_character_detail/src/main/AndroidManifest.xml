@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.anter.feature_character_detail">
-
+    <application>
+        <activity
+            android:name=".DetailScreenActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="app.anter.feature_detail_screen.open"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>
