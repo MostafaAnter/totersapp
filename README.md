@@ -13,7 +13,7 @@
  <img src="gif link" width="300">
  
 ### Project Dependency Graph ###
-![](image link)
+![](https://raw.githubusercontent.com/MostafaAnter/totersapp/master/project.dot.png)
 - App module depend on (core + feature games list screen + feature game detail screen) : contains app start point it may be a splash screen.
 - Core module depend on nothing  : contains all sharable data among different modules.
 - Feature Games List Screen Module depend on core : contain games list screen feature related ui and other staffs.
