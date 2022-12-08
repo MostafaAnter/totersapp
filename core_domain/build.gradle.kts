@@ -52,6 +52,9 @@ android {
 
 dependencies {
 
+    implementation(project(":core"))
+    implementation(project(":core_data"))
+
     implementation (AppDependencies.kotlin_stdlib)
     implementation (AppDependencies.core_ktx)
     implementation (AppDependencies.androidx_appcompat)
