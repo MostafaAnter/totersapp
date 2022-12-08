@@ -16,7 +16,7 @@ class Navigations @Inject constructor() {
     fun openGameListScreenIntent(context: Context) = internalIntent(context, "app.anter.feature_characters_list_screen.open")
 
     //open detail screen feature
-    fun openGameDetailScreenIntent(context: Context, game_id: Int) = internalIntent(context, "app.anter.feature_detail_screen.open").apply {
-        putExtra("game_id", game_id)
+    fun openGameDetailScreenIntent(context: Context, id: Int) = internalIntent(context, "app.anter.feature_detail_screen.open").apply {
+        putExtra("id", id)
     }
 }
