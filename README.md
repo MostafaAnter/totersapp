@@ -14,10 +14,8 @@
  
 ### Project Dependency Graph ###
 ![](https://raw.githubusercontent.com/MostafaAnter/totersapp/master/project.dot.png)
-- App module depend on (core + feature games list screen + feature game detail screen) : contains app start point it may be a splash screen.
-- Core module depend on nothing  : contains all sharable data among different modules.
-- Feature Games List Screen Module depend on core : contain games list screen feature related ui and other staffs.
-- Feature Game Detail Screen Module depend on core : contain game detail screen feature related ui.
+Core module contains classes which can be used in every layer, such as injection annotations, injection scopes, error factories, data holder models. Core presentation, includes core module and classes which can be used in other features presentation modules such as base ui classes, generic RecyclerView Adapter, ViewModel factories etc. Core data includes core module and domain specific interfaces such as Interactors. Core Data also includes core module, data source interfaces, default request interceptors and api module.
+
 
 ### Use domain specific language ###
 - Make gradle scripts easy
