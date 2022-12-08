@@ -33,11 +33,11 @@ class Converters {
     // region convert image
     @TypeConverter
     fun fromThumbnail(value: Thumbnail?): String? {
-        return value?.let { it.path }
+        return value?.let { it.path + "/portrait_xlarge.${it.extension}" }
     }
 
     @TypeConverter
-    fun dateToThumbnail(path: String?): Thumbnail? {
+    fun dateToThumbnail(path: String?): Thumbnail {
         return Thumbnail(path = path)
     }
     //endregion
