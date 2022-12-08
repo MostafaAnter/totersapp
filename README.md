@@ -1,6 +1,6 @@
 # totersapp - Technical Test Case #
 
-### [👉 Video Demo for this task on youtube 👈](vedio link)
+### [👉 Video Demo for this task on youtube 👈](https://youtu.be/l6rRmd_CBjU)
 
 ### Characters Search & Character Detail Features
  - [x] provide git commits as well ;).
