@@ -38,8 +38,9 @@ android {
     }
     buildTypes.forEach {
         it.buildConfigField("String", "API_BASE_URL", "\"https://gateway.marvel.com/\"")
-        it.buildConfigField("String", "PUBLIC_API_KEY", "\"a4ed1bd080b830c92a687cf3be2ed797\"")
-        it.buildConfigField("String", "PRIVATE_API_KEY", "\"f777157d15b93664728420bf06312cef2727777f\"")
+        it.buildConfigField("String", "PUBLIC_API_KEY", "\"078b8a3343b27622e8854c5eb1fe3e07\"")
+        it.buildConfigField("String", "PRIVATE_API_KEY", "\"e1a2a1de17e0ec16cc5beaa506e1c08de92374ed\"")
+        it.buildConfigField("String", "HASH", "\"80eea8c1cc6bc039393e53ececb8be4c\"")
     }
     // enable data binding inside module
     dataBinding.apply {
