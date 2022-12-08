@@ -70,9 +70,9 @@ before merge any branch to master branch.
 - to detect memory leak through debugging process that will improve app performance as well. 
 
 ### Truth For unit test its recommended from google
-- write unit test for [Search Validator Class](https://github.com/MostafaAnter/Technical_Test_Case/blob/master/feature_games_list_screen/src/test/java/app/anter/feature_games_list_screen/ui/SearchValidatorTest.kt)
-- write integrated test for ensure [Database work fine](https://github.com/MostafaAnter/Technical_Test_Case/blob/master/core/src/androidTest/java/app/anter/core/AppDatabaseTest.kt)
-  <img src="test image link" width="500">
+- write unit test for [Search Validator Class](https://github.com/MostafaAnter/totersapp/blob/master/feature_characters_list/src/test/java/app/anter/feature_characters_list/SearchValidatorTest.kt)
+- write integrated test for ensure [Database work fine](https://github.com/MostafaAnter/totersapp/blob/master/core_data/src/androidTest/java/app/anter/core_data/AppDatabaseTest.kt)
+  <img src="https://raw.githubusercontent.com/MostafaAnter/totersapp/master/Screen%20Shot%202022-01-21%20at%2011.00.28%20PM.png" width="500">
   
 ### Reactive programming (Coroutines)
 Coroutines is Google recommended solution for asynchronous programming on Android. Noteworthy features include the following:
