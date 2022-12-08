@@ -2,6 +2,9 @@
 
 ### [👉 Video Demo for this task on youtube 👈](https://youtu.be/l6rRmd_CBjU)
 
+ <img src="https://media.giphy.com/media/FybcHGEVxiOvv5MWPQ/giphy.gif" width="300">
+ 
+
 ### Characters Search & Character Detail Features
  - [x] provide git commits as well ;).
  - [x] Use of design patterns and a good architecture is highly encouraged. Make Uncle Bob proud!
@@ -9,8 +12,6 @@
  - [x] The app is readable and clean.
  - [x] Error handling of the response.
  - [x] Business logic is unit tested. 
- 
- <img src="https://media.giphy.com/media/FybcHGEVxiOvv5MWPQ/giphy.gif" width="300">
  
 ### Project Dependency Graph ###
 <img src="https://raw.githubusercontent.com/MostafaAnter/totersapp/master/project.dot.png" width="400">
@@ -70,7 +71,8 @@ before merge any branch to master branch.
 ### Truth For unit test its recommended from google
 - write unit test for [Search Validator Class](https://github.com/MostafaAnter/totersapp/blob/master/feature_characters_list/src/test/java/app/anter/feature_characters_list/SearchValidatorTest.kt)
 - write integrated test for ensure [Database work fine](https://github.com/MostafaAnter/totersapp/blob/master/core_data/src/androidTest/java/app/anter/core_data/AppDatabaseTest.kt)
-  <img src="https://raw.githubusercontent.com/MostafaAnter/totersapp/master/Screen%20Shot%202022-01-21%20at%2011.00.28%20PM.png" width="500">
+  
+<img src="https://raw.githubusercontent.com/MostafaAnter/totersapp/master/Screen%20Shot%202022-01-21%20at%2011.00.28%20PM.png" width="500">
   
 ### Reactive programming (Coroutines)
 Coroutines is Google recommended solution for asynchronous programming on Android. Noteworthy features include the following:
